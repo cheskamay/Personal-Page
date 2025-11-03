@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-image: url('images/background.jpg');
+  background-image: url('background.jpg'); /* removed "images/" since file is in same folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,6 +18,7 @@ body {
   background-color: #f8f8f8;
   color: #222;
 }
+
 
 /* HEADER */
 header {
